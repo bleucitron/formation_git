@@ -1,7 +1,6 @@
 # [Git](https://git-scm.com/)
 
 Outil de versioning créé par Linus Thorvald en 2005.
-fewkfnwelkfnlsefwe
 
 Sert à
 * versioner
@@ -29,6 +28,8 @@ git add # met des modifs en staging mode
 git commit # enregistre les modifs en staging mode
 git commit --amend # modifie le commit précédent
 
+git status # affiche l'état du projet
+
 git reset # enleve les modifs qui sont en staging mode
 git reset --hard HEAD # annule toutes les modifs non commitées
 
@@ -44,6 +45,8 @@ git branch # liste les branches
 git branch maBranche # crée une branche
 git branch -M ancienNom nouveauNom # renomme une branche
 git branch -D maBranche # supprime la branche
+
+git merge maBranche # fusionne maBranche sur la branche courante
 
 git checkout maBranche # change de branche
 git checkout -b maNouvelleBranche # crée et change de branche
